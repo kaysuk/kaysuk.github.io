@@ -2,10 +2,30 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Мой сайт</title>
+    <style> body{background-color: #262626;} </style>
 </head>
-<body>
+<body style="margin:0;">
+    <header>
+    <div class="block1">
+       <img class="img1" src="bear.png">
+       <div class="block2">Главная страница получается</div>
+       <nav>
+       <div class="block4">
+          <Ul id="navbar">
+             <li> <a href="#Href">Гиперссылки</a></li>
+             <li> <a href="#table">Таблица</a></li>
+             <li> <a href="#form">Форма</a></li>
+          </Ul>
+       </div>
+       </div>
+    </header>
+    <nav>
+    <section id="Href"></section>
+    <div class="text1">
+     <div class="block3">
     <ol>
         <li><a href="http://kubsu.ru/">КубГУ</a></li>
         <li><a href="https://kubsu.ru/">КубГУ</a></li>
@@ -39,6 +59,141 @@
                <ol>
                   <li><a href="https://www.youtube.com/shorts/zAj6FXcPlis" title="Милое видео 1">Топовый трек 1</a></li>
                   <li> <a href="https://www.youtube.com/shorts/F9kra-OeJ1U" title="Милое видео 2">Топовый трек 2</a></li>
+                  <section id="table" class="table1">
+                    <div class="block3">
+                    <div class="text1">
+                    <table class="table">
+                       <tbody>
+                       <tr>
+                          <th class="th">№ пары</th>
+                          <th class="th">Начало пары</th>
+                          <th class="th">Конец пары</th>
+                          <th class="th">Перемена</th>
+                       </tr>
+                       <tr>
+                          <td class="td"> 1пара</td>
+                          <td class="td"> 8:00</td>
+                          <td class="td"> 9:20</td>
+                          <td class="td"> 10мин</td>
+                       </tr>
+                       <tr>
+                          <td class="td"> 2пара</td>
+                          <td class="td"> 9:30 </td>
+                          <td class="td"> 10:50 </td>
+                          <td class="td"> 20мин</td>
+                       </tr>
+                       <tr>
+                          <td class="td"> 3пара</td>
+                          <td class="td"> 11:10 </td>
+                          <td class="td"> 12:30 </td>
+                          <td class="td"> 10мин</td>
+                       </tr>
+                       <tr>
+                          <td class="td"> 4пара</td>
+                          <td class="td"> 12:40 </td>
+                          <td class="td"> 14:00 </td>
+                          <td class="td"> 10мин</td>
+                       </tr>
+                       <tr>
+                          <td class="td"> 5пара</td>
+                          <td class="td"> 14:10 </td>
+                          <td class="td"> 15:30 </td>
+                          <td class="td"> 10мин</td>
+                       </tr>
+                       <tr>
+                          <td class="td"> 6 пара </td>
+                          <td class="td" colspan="3"> </td>
+                       </tr>
+                    </tbody>
+                    </table>
+                    </div> 
+                 </section>
+           
+                 <nav>
+                 <section id="form">
+                 <div class="text1">
+                 <div class="block3">
+                 <h2>Форма поля</h2>
+                 <form action="/" method="POST">
+                    <label>
+                       ФИО:<br />
+                       <input name="field-name-1" required
+                         value="ФИО" />
+                     </label><br />
+                    <label>
+                       Телефон:<br />
+                       <input name="field-tell"
+                         type="tell" required
+                         placeholder="Введите ваш номер телефона" />
+                     </label><br />
+                    <label>
+                       Текстовое поле email:<br />
+                       <input name="field-email"
+                         type="email" required 
+                         placeholder="Введите вашу почту" />
+                     </label><br />
+                    <label>
+                       Дата рождения:<br />
+                       <input name="field-date"
+                         value="2019-08-13"
+                         type="date" required/>
+                     </label><br />
+                     Пол:<br />
+                    <label><input type="radio" checked="checked"
+                       name="radio-group-1" value="Значение1" required />
+                       Мужской</label>
+                    <label><input type="radio"
+                       name="radio-group-1" value="Значение2" required/>
+                       Женский</label><br />
+                    <label>
+                       Любимый язык программирования:
+                       <br />
+                       <select name="field-name-4[]"
+                         multiple="multiple" required>
+                         <option value="Значение1">Pascal</option>
+                         <option value="Значение2" selected="selected">C</option>
+                         <option value="Значение3" selected="selected">C++</option>
+                         <option value="Значение4">JavaScript</option>
+                         <option value="Значение5">PHP</option>
+                         <option value="Значение6">Python</option>
+                         <option value="Значение7">Java</option>
+                         <option value="Значение8">Haskel</option>
+                         <option value="Значение9">Clojure</option>
+                         <option value="Значение10">Prolog</option>
+                         <option value="Значение11">Scala</option>
+                       </select>
+                     </label><br />
+                    <label>
+                       Биография:<br />
+                       <textarea name="field-name-2" required>Напишите о себе</textarea>
+                     </label><br />
+                     С контрактом ознакомлен(а):<br />
+                    <label><input type="checkbox" checked="checked"
+                       name="check-1" required/>
+                       Подпись</label><br />
+                       <input type="submit" value="Сохранить" />
+                    </form>
+                  </div>
+                 </section> 
+                 </nav>
+              
+                 <nav>
+                 <div class="text1">
+                 <div class="block3">
+                 <section id="about">
+                 <h3>Вы перешли на фрагмент</h3>
+                 <article>
+                 <p>Вы перешли на фрагмент</p>
+                 </article>
+                 </section>
+                 </div>
+                 </nav>
+           
+                 <footer> 
+                    <div class="block1">
+                    <p class="text1"> (c) Михаил Нестренко 2023 </p>
+                    </div>
+                 </footer>
       
     </ol>
 </body>
