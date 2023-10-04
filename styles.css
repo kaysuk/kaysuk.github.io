@@ -19,7 +19,7 @@
 
 .block3{
      max-width: 960px;
-     background-color: #4a4b4a;
+     background-color: #ff0000;
      margin: 0 auto;
      margin-top: 20px;
      padding: 10px;
@@ -27,7 +27,7 @@
 
 .block4{
     max-width: 960px;
-    background-color: #48ff00;
+    background-color: #ff0000;
     margin: 0 auto;
     padding: 10px;
     display: flex;
@@ -35,7 +35,7 @@
 
 
 .text1{
-    color: #48ff00;
+    color: #ffffff;
 
 }
 
@@ -44,7 +44,7 @@ a:link{
 }
 
 a:visited{
-    color: #fc8282;
+    color: #7a7a7a;
 }
 
 #navbar {
@@ -57,10 +57,10 @@ a:visited{
 .table{
     border-collapse: collapse ;
   }
-.th{border: 1px solid #4c00ff;
-        background: #fd0000;}
-.td{border: 1px solid #F2Bf5e;
-        background: #ff0000;}
+.th{border: 1px solid #000000;
+        background: #ffffff;}
+.td{border: 1px solid #000000;
+        background: #ffffff;}
 
 @media (min-device-width: 320px) and (max-device-width: 568px) {
     .block1{
