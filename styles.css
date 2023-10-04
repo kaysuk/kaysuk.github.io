@@ -1,6 +1,6 @@
 .block1{
     width: 100%; 
-    background-color: #7e0000;
+    background-color: #ffffff;
     padding: 10px; 
     height: 110px;
 }
@@ -13,7 +13,7 @@
 }
 
 .block2{
-    background-color: #38726a;
+    background-color: #7e0000;
     padding: 10px;
 }
 
@@ -27,7 +27,7 @@
 
 .block4{
     max-width: 960px;
-    background-color: #38726a;
+    background-color: #7e0000;
     margin: 0 auto;
     padding: 10px;
     display: flex;
