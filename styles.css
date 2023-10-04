@@ -1,6 +1,6 @@
 .block1{
     width: 100%; 
-    background-color: #ffffff;
+    background-color: #7e0000;
     padding: 10px; 
     height: 110px;
 }
@@ -19,7 +19,7 @@
 
 .block3{
      max-width: 960px;
-     background-color: #ff0000;
+     background-color: #7e0000;
      margin: 0 auto;
      margin-top: 20px;
      padding: 10px;
@@ -27,7 +27,7 @@
 
 .block4{
     max-width: 960px;
-    background-color: #ff0000;
+    background-color: #7e0000;
     margin: 0 auto;
     padding: 10px;
     display: flex;
@@ -40,11 +40,11 @@
 }
 
 a:link{
-    color:#f3ca7f;
+    color:#ffffff;
 }
 
 a:visited{
-    color: #7a7a7a;
+    color: #b3b3b3;
 }
 
 #navbar {
@@ -58,9 +58,9 @@ a:visited{
     border-collapse: collapse ;
   }
 .th{border: 1px solid #000000;
-        background: #ffffff;}
+        background: #7e0000;}
 .td{border: 1px solid #000000;
-        background: #ffffff;}
+        background: #7e0000;}
 
 @media (min-device-width: 320px) and (max-device-width: 568px) {
     .block1{
