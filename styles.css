@@ -87,13 +87,13 @@ a:visited{
     }
     
     .block2{
-        background-color: #ff0000;
+        background-color: #7e0000;
         padding: 10px;
     }
     
     .block3{
          max-width: 960px;
-         background-color: #595959;
+         background-color: #7e0000;
          margin: 0 auto;
          margin-top: 20px;
          padding: 10px;
@@ -103,7 +103,7 @@ a:visited{
     }
     .block4{
         max-width: 960px;
-        background-color: #000000;
+        background-color: #7e0000;
         margin: 0 auto;
         padding: 10px;
     
